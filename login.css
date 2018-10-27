@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url("sources/background_form_log_in_3.png");
+}
+
+.form-login h2 {
+
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    font-size: 34px;
+    color: #FFFFFF;
+}
+.form-login p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+.form-horizontal{
+    margin-top: 7%;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    text-align: center;
+}
+.form-horizontal .heading{
+    display: block;
+    padding: 35px 0;
+    margin-bottom: 30px;
+}
+.form-horizontal .form-group{
+    padding: 0 50px;
+    margin: 0 0 55px 0;
+    position: relative;
+}
+.form-horizontal .form-control{
+    background: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 0 20px 0 45px;
+
+    transition: all 0.3s ease 0s;
+}
+.form-horizontal .fa-question-circle{
+    display: inline-block;
+    position: absolute;
+    color: #FFFFFF;
+    transition: all 0.5s ease 0s;
+}
+.form-horizontal .fa-question-circle:hover{
+    color: #000;
+}
+.form-horizontal .form-control:focus{
+    background: #e0e0e0;
+    box-shadow: none;
+    outline: 0 none;
+}
+.form-horizontal .form-group i{
+    position: absolute;
+    top: 12px;
+    left: 60px;
+    font-size: 17px;
+    color: #c8c8c8;
+    transition : all 0.5s ease 0s;
+}
+.form-horizontal .form-control:focus + i{
+    color: #00b4ef;
+}
+.form-horizontal .btn{
+    /*height: 56px;*/
+    text-align: center;
+    width: 220px;
+    background: linear-gradient(331.36deg, #FF9509 6.53%, #FF3C00 86.56%);
+    border-radius: 25px;
+    transition: all 0.5s ease 0s;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+}
+@media only screen and (max-width: 479px){
+    .form-horizontal .form-group{
+        padding: 0 25px;
+    }
+    .form-horizontal .form-group i{
+        left: 45px;
+    }
+    .form-horizontal .btn{
+        padding: 10px 20px;
+    }
+}
+.signUp {
+    margin-top: 5%;
+}
+
+.text  {
+    margin-top: 5%;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sign {
+    margin-top: 5%;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+

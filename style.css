@@ -1,0 +1,53 @@
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+/*a {*/
+    /*text-decoration: none;*/
+/*}*/
+/*li {*/
+    /*list-style: none;*/
+/*}*/
+body {
+    /*display: flex;*/
+    /*position: relative;*/
+    /*width: 1440px;*/
+    /*height: 1721px;*/
+    background: #F1F1F1;
+    font-family: Montserrat sans-serif;
+}
+.navbar {
+    /*position: absolute;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-end;*/
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    width: 96vw;
+    height: 180px;
+    left: 2vw;
+    top: 1.5vw;
+    right: 2vw;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.navbar-nav {
+    padding-bottom: 27px;
+}
+.navbar-nav li a {
+    font-family: Montserrat;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+}
+.menu img {
+    padding-right: 41px;
+}
+/*.col {*/
+    /*border: 1px solid black;*/
+/*}*/
+.newphoto img {
+    align-content: center;
+}
